@@ -1,0 +1,6 @@
+[package]
+name = "skills-rating"
+version = "0.1.0"
+authors = ["Urcra <urcra@urcra.com>"]
+
+[dependencies]
