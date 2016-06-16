@@ -37,6 +37,6 @@ pub fn series(r_a: EloRating, games: &[(EloRating, f32)], k_factor: u32) -> EloR
         exp_score = expected_score(r_a, game.0);
     }
 
-    r_a + (k_factor as f32 * (score - exp_score)) as i32
+    r_a + rating_change(k_factor, score, exp_score)
 }
 
