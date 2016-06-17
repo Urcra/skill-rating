@@ -1,6 +1,6 @@
 extern crate skill_rating;
 
-use skill_rating::*;
+use skill_rating::elo;
 
 
 
